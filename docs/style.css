@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    display: flex;
+    min-height: 640px;
+}
+.margin {
+    width: 25%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    min-width: 360px;
+}
+.inputs-div {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+    height: 30px;
+    border-radius: 50px;
+    outline: none;
+}
